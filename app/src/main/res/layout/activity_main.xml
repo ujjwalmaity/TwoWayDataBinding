@@ -22,6 +22,16 @@
             android:textAlignment="center"
             android:textSize="20sp"
             android:textStyle="italic" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="120dp"
+            android:ems="15"
+            android:hint="Enter text"
+            android:maxLines="5"
+            android:text="@={sample.text}" />
     </RelativeLayout>
 
 </layout>

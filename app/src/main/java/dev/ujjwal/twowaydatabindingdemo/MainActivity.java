@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         activityMainBinding = DataBindingUtil.setContentView(this, R.layout.activity_main);
-        SampleText sampleText = new SampleText("UJJWAL MAITY");
+        SampleText sampleText = new SampleText("");
         activityMainBinding.setSample(sampleText);
     }
 }
