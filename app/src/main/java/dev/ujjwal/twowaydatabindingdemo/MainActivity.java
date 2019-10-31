@@ -21,20 +21,3 @@ public class MainActivity extends AppCompatActivity {
         activityMainBinding.setSample(sampleText);
     }
 }
-
-class SampleText {
-
-    private String text;
-
-    SampleText(String text) {
-        this.text = text;
-    }
-
-    public String getText() {
-        return text;
-    }
-
-    public void setText(String text) {
-        this.text = text;
-    }
-}
